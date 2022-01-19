@@ -1,0 +1,31 @@
+table {
+
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.center {
+    text-align: center;
+}
+
+header {
+    background-color: gray;
+
+}
+footer {
+    background-color: gray;
+}
+#nameofweb {
+    text-align: right;
+    margin-top: center;
+}
+
+img {
+
+    border-radius: 8px;
+
+
+}
