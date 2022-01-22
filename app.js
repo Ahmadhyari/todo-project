@@ -36,12 +36,15 @@ var welcome = confirm("Do you want to see welcoming message ?");
 if (welcome == true) {
     if (yourGender == "male") {
         alert("welcome Mr  " + yourName);
-    } else {
+    } else if (yourGender == "female") {
         alert("welcome Ms  " + yourName);
-    }
-} else { }
 
+    } else {
+    alert("welcome  " + yourName);
 
+}
+
+}else{}
 
 
 
