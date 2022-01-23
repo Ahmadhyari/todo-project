@@ -51,6 +51,55 @@ if (welcome == true) {
 
 
 
+function invalidResult (result){
+     return "invalid";
+
+}
+    
+
+var resultExcited= prompt("Are you excited ?");
+if (resultExcited.toLowerCase() == "yes" || resultExcited.toLowerCase() =="no" ){
+} 
+
+else if (resultExcited =" ") {
+       var resultExcited=invalidResult(resultExcited);
+}
+
+ 
+
+var yourCountry= prompt("Are you from jordan ?");
+if (yourCountry.toLowerCase() == "yes" || yourCountry.toLowerCase() =="no" ){
+} 
+
+else if (yourCountry =" ") {
+       var yourCountry=invalidResult(yourCountry);
+}
+ 
+
+var yourVisting =prompt("Are you visit the site before ?");
+if (yourVisting.toLowerCase() == "yes" || yourVisting.toLowerCase() =="no" ){
+} 
+
+else if ( yourVisting=" ") {
+       var yourVisting=invalidResult(yourVisting);
+}
+
+var answers= [resultExcited ,yourCountry,yourVisting];
+
+for (let i=0;i<=2;i++){
+    console.log( "the answer is "+ answers[i]);
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 

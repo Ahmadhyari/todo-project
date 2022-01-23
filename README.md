@@ -1,6 +1,6 @@
 # todo-project
 
-It took around one and half hours , i thought it will take more
+It took around one hour, i thought it will take more
 
 <h2>Home page</h2>
 
